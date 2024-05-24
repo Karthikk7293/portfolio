@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+  background: #0F0E0D;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+
+}
