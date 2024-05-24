@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div>about page</div>
+    <div>about page about</div>
   )
 }
 
