@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
         )} text-white bg-default-bg w-full h-full min-h-screen flex  flex-col justify-between px-[100px] `}
       >
         <Header />
-        {children}
+        {children} 
         <Footer />
       </body>
     </html>

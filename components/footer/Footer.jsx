@@ -8,7 +8,7 @@ function Footer() {
       </div>
       <div className=" w-1/2 mx-auto flex items-center ">
         <ul
-          className={` font-bebas w-5/6 mx-auto flex gap-7 justify-around items-center  `}
+          className={` font-bebas w-5/6  mx-auto flex gap-7 justify-around items-center  `}
         >
           <li>
             <Link href={"/"}>home</Link>
@@ -30,7 +30,7 @@ function Footer() {
       </div>
       <div>
         <p className="text-[10px] text-main-white text-center ">
-          Copyright © 2023. All rights reserved by{" "}
+          Copyright © 2024. All rights reserved by{" "}
           <span className="text-teal-600 font-bebas tracking-wider ">
             KARTHIK.
           </span>

@@ -120,7 +120,7 @@ export default function Home() {
               PROJECTS
             </p>
           </div>
-        </div>
+        </div> 
         <div
           data-aos="fade-left"
           className=" bg-glass w-[673px] ms-auto h-[286px] rounded-[35px] border border-default-br flex justify-start items-center p-5 shadow-main "
