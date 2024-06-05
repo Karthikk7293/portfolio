@@ -13,10 +13,11 @@ export const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
 });
 
-export const metadata = {
-  title: `IT'S ME KARTHIK  || PRTFOLIO `,
-  description: "Pesonal portfolio of karthik ",
-};
+// export const metadata = {
+//   title: `IT'S ME KARTHIK  || PRTFOLIO `,
+//   description: "Pesonal portfolio of karthik ",
+// };
+
 export const bangers = Bangers({
   subsets: ["latin"],
   weight: ["400"],
