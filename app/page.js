@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image from "@/public/avatar/avatar-5.jpg";
+import image from "@/public/avatar/avatar-6.jpg";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
             className="bg-glass w-[614px] h-[344px] rounded-[35px] border border-default-br flex justify-center items-center p-5 shadow-main"
           >
             <div className="w-[267px] h-[245px] rounded-tl-[35px] rounded-br-[35px]  overflow-hidden flex justify-center items-center  ">
-              <Image src={image} alt="" className="" />
+              <Image src={image} alt="" className=" hover:scale-125 duration-300" />
             </div>
             <div className="w-1/2 h-4/6 flex flex-col justify-center gap-5 items-start text-ash px-7 ">
               <p className="text-[15px] ">WEB DEVELOPER</p>
