@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <title>IT'S ME KARTHIK || PRTFOLIO </title>
+        <title>IT’S ME KARTHIK || PRTFOLIO </title>
         <meta charset="UTF-8" />
         <meta name="description" content="Pesonal portfolio of karthik" />
         <meta name="keywords" content="JavaScript,Typescript" />
