@@ -12,7 +12,7 @@ module.exports = {
     },
     extend: {
       animation: {
-        'loop-scroll': 'loop-scroll 5s linear infinite',
+        'loop-scroll': 'loop-scroll 8s linear infinite',
       },
       keyframes: {
         'loop-scroll': {
