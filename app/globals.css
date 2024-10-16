@@ -11,3 +11,9 @@ html::-webkit-scrollbar {
   display: none;
 
 }
+
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}

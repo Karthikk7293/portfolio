@@ -4,7 +4,7 @@ import image from "@/public/avatar/avatar-5.jpg";
 export default function Home() {
   return (
     <main className="w-full h-full my-10  ">
-      <div className="grid grid-cols-2 mb-12 ">
+      <div className="grid grid-cols-2 mb-12  ">
         <div className="">
           <div
             data-aos="fade-right"
@@ -22,25 +22,18 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" flex flex-col justify-between">
+        <div className=" flex flex-col justify-between ">
           <div
             data-aos="fade-left"
-            className="bg-glass w-full h-[67px] rounded-[35px] border border-default-br flex items-center px-6 text-xs shadow-main"
+            className="bg-glass  overflow-hidden w-full h-[67px] rounded-[35px] border  border-default-br flex-wrap-reverse flex items-center  px-6 text-sm shadow-main"
           >
-            <p className="text-ash  ">
-              I’m available for{" "}
-              <span className=" text-[#C9C8C8] ">freelance works. </span>
-            </p>
-            <p className="text-ash  ">
-              {" "}
-              I’m available for{" "}
-              <span className=" text-[#C9C8C8] ">freelance works.</span>
-            </p>
-            <p className="text-ash  ">
-              {" "}
-              I’m available for{" "}
-              <span className=" text-[#C9C8C8] ">freelance works.</span>
-            </p>
+            <div className="animate-loop-scroll  ">
+              <p className="text-ash  ">
+                I’m available for{" "}
+                <span className=" text-[#C9C8C8] ">freelance works. </span>
+              </p>
+            </div>
+            
           </div>
           <div className="flex justify-between">
             <div
@@ -120,7 +113,7 @@ export default function Home() {
               PROJECTS
             </p>
           </div>
-        </div> 
+        </div>
         <div
           data-aos="fade-left"
           className=" bg-glass w-[673px] ms-auto h-[286px] rounded-[35px] border border-default-br flex justify-start items-center p-5 shadow-main "

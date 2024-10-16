@@ -11,6 +11,15 @@ module.exports = {
       bebas: ["var(--font-bebas)"],
     },
     extend: {
+      animation: {
+        'loop-scroll': 'loop-scroll 5s linear infinite',
+      },
+      keyframes: {
+        'loop-scroll': {
+          from: { transform: 'translateX(-100%)' },
+          to: { transform: 'translateX(300%)' },
+        },
+      },
       colors: {
         "default-br": "rgba(230, 253, 255, 0.10)",
         ash: "rgba(136, 136, 136, 0.85)",
