@@ -8,6 +8,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Header2 from "@/components/header/Header2";
 import Head from "next/head";
+import Script from 'next/script'
 
 export const poppins = Poppins({
   subsets: ["latin"],
@@ -50,8 +51,7 @@ export default function RootLayout({ children }) {
           poppins.className
         )} text-white bg-default-bg w-full h-full min-h-screen flex  flex-col justify-between lg:px-[100px] `}
       >
-        <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
-
+        <Script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></Script>
         <Header2 />
         {children}
         <Footer />
